@@ -21,6 +21,7 @@ img {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+   
 }
 
 nav {
@@ -29,6 +30,14 @@ nav {
     position: sticky;
     top: 0;
 }
+img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+
+}
+
+
 
 nav ul {
     
@@ -52,11 +61,21 @@ nav a {
     text-decoration: none;
     padding: 0.5em 1em;
 }
-
+article{
+    float: left;
+    width: 74%;
+    margin-right: 5px;
+}
+aside{
+    
+    float: right;
+    width: 25%;
+}
 .photos {
     list-style: none;
     margin: 0;
     padding: 0;
+    
 }
 
 .feature {
